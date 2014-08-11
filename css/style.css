@@ -4,3 +4,32 @@
 /* mixins
 use full theme mixins
 */
+/* navbars */
+.navbar-default {
+  background: rgba(255, 255, 255, 0.98);
+}
+header {
+  background-image: url('../img/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.navbar-brand {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(0, 0, 0, 0);
+  background-image: url('../img/hm-web-logo-01.png');
+}
+.navbar-brand a {
+  color: rgba(0, 0, 0, 0);
+}
+a.navbar-brand {
+  color: rgba(0, 0, 0, 0) !important;
+}
+header h1 {
+  color: #ffffff;
+}
+.lead {
+  color: #ffffff;
+}
